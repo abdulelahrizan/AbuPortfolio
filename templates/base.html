@@ -22,7 +22,7 @@
 
 </head>
 
-<body>
+<body>s
   <div class="navbar-dark text-white">
     <div class="container">
       <nav class="navbar px-0 navbar-expand-lg navbar-dark">
@@ -32,10 +32,11 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <a href="{{ url_for('index') }}" class="pl-md-0 p-3 text-light">Start</a>
-            <a href="{{ url_for('app') }}" class="p-3 text-decoration-none text-light">App
+            <a href="{{ url_for('hello') }}" class="pl-md-0 p-3 text-light">Start</a>
+            <a href="{{ url_for('application') }}" class="p-3 text-decoration-none text-light">App
               example</a>
-            <a href="form.html" class="p-3 text-decoration-none text-light">Form example</a>
+            <a href="{{ url_for('form') }}" class="p-3 text-decoration-none text-light">Form
+              example</a>
           </div>
         </div>
       </nav>
