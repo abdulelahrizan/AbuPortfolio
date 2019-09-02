@@ -18,6 +18,8 @@
   <link rel="shortcut icon" href="{{ url_for('static', filename='images/favicon.ico') }}">
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   <link rel='stylesheet' href='//cdn.jsdelivr.net/font-hack/2.020/css/hack.min.css'>
+  <script src="{{ url_for('static', filename='js/portfolio.js') }}"></script>
+
 
 </head>
 
@@ -47,20 +49,26 @@
   <div class="jumbotron bg-transparent mb-0 radius-0">
     <div class="container">
       <div class="row">
-        <div class="col-xl-4">
+        <div class="col-xl-3">
           <div class="card">
             <img class="card-img-top" src="{{ url_for('static', filename='images/Profile.jpg') }}" alt="Card image cap">
             <div class="card-body">
-              <h4 class="card-title">Card title</h4>
+              <h4 class="card-title">Abu</h4>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
                 content.</p>
               <a href="#!" class="btn btn-primary">Go somewhere</a>
             </div>
           </div>
         </div>
-        <div class="col-xl-8">
+        <div class="col-xl-9">
           <h1 class="display-2">Abdul Elah A.M. Riza<span class="vim-caret">n</span></h1>
           <div class="lead mb-3 text-mono text-success">There's not much to see here rn tbh.</div>
+          <h3>
+            <a class="typewrite" data-period="2000"
+              data-type='[ "Hi There, I&#39;m Abu.", "I am a Developer.", "I am a Information Security Professional", "I am a Mechanincal Engineering Student", "I Love breaking and building Tech!" ]'>
+              <span class="wrap"></span>
+            </a>
+          </h3>
           <div class="text-mono">
             <a href="#!" title="Download Theme" class="btn btn-success btn-shadow px-3 my-2 ml-0 text-left">
               A Button
@@ -81,6 +89,9 @@
         </div>
       </div>
     </div>
+  </div>
+  <div>
+
   </div>
   {% endblock content %}
 
