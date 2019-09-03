@@ -25,10 +25,11 @@ TxtType.prototype.tick = function () {
     this.el.innerHTML = '<span class="wrap">' + this.txt + '</span>';
 
     var that = this;
-    var delta = 200 - Math.random() * 100;
+    var delta = 100 - Math.random() * 50;
 
     if (this.isDeleting) {
         delta /= 3;
+
     }
 
     if (!this.isDeleting && this.txt === fullTxt) {
@@ -37,7 +38,7 @@ TxtType.prototype.tick = function () {
     } else if (this.isDeleting && this.txt === '') {
         this.isDeleting = false;
         this.loopNum++;
-        delta = 500;
+        delta = 200;
     }
 
     setTimeout(function () {
