@@ -44,12 +44,11 @@
 
     </div>
   </div>
+  {% block content %}
   <div class="contatiner mx-5">
-    {% block content %}
-
     <div class="row">
       <div class="col-xl-3">
-        <div class="card">
+        <div class="card border-primary">
           <img class="card-img-top" src="{{ url_for('static', filename='images/Profile.jpg') }}" alt="Card image cap">
           <div class="card-body">
             <h4 class="card-title">Abu</h4>
@@ -87,13 +86,24 @@
             <span class="wrap"></span>
           </a>
         </h3>
-        <div class="text-mono">
-          <a href="#!" title="Download Theme" class="btn btn-success btn-shadow px-3 my-2 ml-0 text-left">
+        <div class="text-mono mb-4">
+          <a href="#!" title="Download Theme" class="btn btn-success btn-shadow px-3 mr-2 ml-0 text-left">
             A Button
           </a>
-          <a href="#!" class="btn btn-danger btn-shadow px-3 my-2 ml-0 ml-sm-1 text-left">
+          <a href="#!" class="btn btn-danger btn-shadow px-3 mx-2 ml-0 ml-sm-1 text-left">
             Another Button
           </a>
+        </div>
+        <div class="card border-primary mb-3 text-center">
+          <div class="card-body">
+            <blockquote class="card-blockquote">
+              <p> Creatively Resourceful Mechanical Engineering student with a strong passion for technology, network
+                security,
+                and prototype development. I love breaking and building IT! Currently interning as an Information
+                Security
+                Associate with Queen's University Information Technology Services.</p>
+            </blockquote>
+          </div>
         </div>
         <div class="card">
 
@@ -102,25 +112,41 @@
       </div>
 
     </div>
-
-    {% endblock content %}
-
-    <div class="tm-footer">
-
-      <div class="social"><a href="#"><i class="icon ion-social-instagram"></i></a><a href="#"><i
-            class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a
-          href="#"><i class="icon ion-social-facebook"></i></a></div>
-      <ul class="list-inline">
-        <li class="list-inline-item"><a href="#">Home</a></li>
-        <li class="list-inline-item"><a href="#">Services</a></li>
-        <li class="list-inline-item"><a href="#">About</a></li>
-        <li class="list-inline-item"><a href="#">Terms</a></li>
-        <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
-      </ul>
-      <p class="copyright">Company Name © 2017</p>
-
-    </div>
   </div>
+  {% endblock content %}
+
+  <!-- Footer -->
+  <footer>
+    <div class="container text-center py-5 my-5">
+      <div class="row">
+        <div class=col-md-12>
+          <a href="https://www.facebook.com/abdulelah.rizan" class="fb-ic">
+            <i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+          </a>
+          <!-- Twitter -->
+          <a href="https://twitter.com/sudoabu" class="tw-ic">
+            <i class="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+          </a>
+          <!-- Google +-->
+          <a href="https://github.com/abdulelahrizan" class="gplus-ic">
+            <i class="fab fa-github fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+          </a>
+          <!--Linkedin -->
+          <a href="https://www.linkedin.com/in/abdulelahr/" class="li-ic">
+            <i class="fab fa-linkedin-in fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+          </a>
+          <a href="https://www.quora.com/profile/AbdulElah-Rizan" class="li-ic">
+            <i class="fab fa-quora fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+          </a>
+          <!--Instagram-->
+          <a href="https://www.instagram.com/abdulelahrizan/" class="ins-ic">
+            <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+          </a>
+
+        </div>
+      </div>
+    </div>
+  </footer>
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 
