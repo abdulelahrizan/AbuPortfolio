@@ -1,0 +1,63 @@
+<div class="card mb-3">
+    <h4 class="card-header"><i class="fas fa-tools mr-1"></i> Technical Skills</h4>
+    <div class="card-body">
+        <blockquote class="card-blockquote px-3">
+
+            <div class="row justify-content-center">
+                {% for skill, level in data['Development & Technical Skills'].items() %}
+                <div class="col-10 mx-2 mt-2">
+                    <p class="my-1" style="font-size: 18px" align="center">{{skill}}</p>
+                    <div class="progress my-2">
+                        <div class="progress-bar bg-orange" role="progressbar" style="width: {{level}}%"
+                            aria-valuenow="{{level}}" aria-valuemin="0" aria-valuemax="100">
+                            <div>{{level}}%</div>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </blockquote>
+    </div>
+</div>
+<div class="card mb-3">
+    <h3 class="card-header"><i class="fas fa-user-tie mr-1"></i> Professional Skills</h3>
+    <div class="card-body">
+        <blockquote class="card-blockquote px-3">
+
+            <div class="row justify-content-center">
+                {% for skill, level in data['Professional Skills'].items() %}
+                <div class="col-10 mx-2 mt-2">
+                    <p class="my-1" style="font-size: 18px" align="center">{{skill}}</p>
+                    <div class="progress my-2">
+                        <div class="progress-bar bg-orange" role="progressbar" style="width: {{level}}%"
+                            aria-valuenow="{{level}}" aria-valuemin="0" aria-valuemax="100">
+                            <div>{{level}}%</div>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </blockquote>
+    </div>
+</div>
+<div class="card mb-3">
+    <h3 class="card-header"><i class="fas fa-industry mr-1"></i> Industry Knowledge</h3>
+    <div class="card-body">
+        <blockquote class="card-blockquote px-3">
+
+            <div class="row justify-content-center">
+                {% for skill, level in data['Industry Knowledge'].items() %}
+                <div class="col-10 mx-2 mt-2">
+                    <p class="my-1" style="font-size: 18px" align="center">{{skill}}</p>
+                    <div class="progress my-2">
+                        <div class="progress-bar bg-orange" role="progressbar" style="width: {{level}}%"
+                            aria-valuenow="{{level}}" aria-valuemin="0" aria-valuemax="100">
+                            <div>{{level}}%</div>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </blockquote>
+    </div>
+</div>

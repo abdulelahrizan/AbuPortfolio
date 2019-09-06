@@ -45,78 +45,26 @@
   {% block content %}
   <div class="container mx-auto">
     <div class="row">
-      <div class="col-xl-9 order-xl-2 col-lg-9 order-lg-2 col-md-9 order-md-2 col-sm order-sm-1">
-        <h1 class="display-2">Abdul Elah A.M. Riza<span class="vim-caret">n</span></h1>
-        <div class="lead mb-3 text-mono text-success">There's not much to see here rn tbh.</div>
-        <h3> Hi there,
-          <a class="typewrite" data-period="2000"
-            data-type='[ "I&#39;m Abu 😊","I&#39;m a Mechanical Engineering Student 👨🏼‍🔧", "I&#39;m a Developer 👨🏼‍💻", "I&#39;m an Information Security Engineer ℹ️🔐", "I 💛 Breaking & Building Tech!" ]'>
-            <span class="wrap"></span>
-          </a>
-        </h3>
-        <div class="text-mono mb-4">
-          <a href="#!" title="Download Theme" class="btn btn-success btn-shadow mb-3 text-left">
-            A Button
-          </a>
-          <a href="#!" class="btn btn-danger btn-shadow mb-3 text-left">
-            Another Button
-          </a>
-        </div>
-        <div class="card mb-3 d-none d-lg-block">
-          <div class="card-body">
-            <blockquote class="card-blockquote">
-              <p> {{data['description']}}</p>
-            </blockquote>
 
-          </div>
-        </div>
+      <div class="col-xl-8 order-xl-2 col-lg-8 order-lg-2 col-md-8 order-md-2 col-sm order-sm-1">
+        {% include 'jumbo.html' %}
+        {% include 'work.html' %}
+        {% include 'design.html' %}
       </div>
-      <div class="col-xl-3 order-xl-1 col-lg-3 order-lg-1 col-md-3 order-md-1 col-sm order-sm-2 mb-2">
-        <div class="card">
-          <img class="card-img-top" src="{{ url_for('static', filename='images/Profile.jpg') }}" alt="Card image cap">
-          <div class="card-body">
-            <h4 class="card-title">Abu</h4>
-            <p><i class="fas fa-university mr-1"></i>
-              Queen's University</p>
-            <ul>
-              <p>
-                B.A.Sc.
-                Mechanical
-                Engineering with Professional
-                Internship (2020)</p>
-            </ul>
-            <p><i class="fas fa-briefcase mr-1"></i>
-              Queen's University</p>
-            <ul>
-              <p>Information
-                Security
-                Associate</p>
-            </ul>
-            <p><a href="mailto: abdulelah.rizan@gmail.com"><i class="fas fa-envelope-open mr-1"></i>
-                abdulelah.rizan@gmail.com</a></p>
-            <p><a href="https://goo.gl/maps/6EbpQv2DoPL2YFrJ8"><i class="fas fa-map-marker mr-1"></i> Kingston, Ontario
-                Canada</a></p>
-            <p><a href="tel:1-343-363-7767"><i class="fas fa-phone mr-1"></i> +1(343)-363-7767</a></p>
-            <p><a href="https://github.com/abdulelahrizan"><i class="fab fa-github mr-1"></i> abdulelahrizan</a></p>
-            <a href="https://www.youracclaim.com/badges/c9404ba3-3bb1-4273-905f-f486834e3997/public_url ">
-              <img class="rounded img-thumbnail mb-2 mx-auto d-block" height="100px" width="100px"
-                src="{{ url_for('static', filename='images/security.png')}}"></a>
+      <div class="col-xl-4 order-xl-1 col-lg-4 order-lg-1 col-md-4 order-md-1 col-sm order-sm-2">
+        {% include 'me.html' %}
+        {% include 'profile.html' %}
 
-          </div>
-        </div>
       </div>
+    </div>
 
-      <div class="col-sm order-3 d-sm-none">
-        <div class="card mb-3">
-          <div class="card-body">
-            <blockquote class="card-blockquote">
-              <p> {{data['description']}}</p>
-            </blockquote>
-          </div>
-        </div>
+    <div class="col-sm order-3 d-sm-none">
+      <div class="card mb-3">
+        {% include 'profile.html' %}
       </div>
     </div>
   </div>
+
 
   {% endblock content %}
 

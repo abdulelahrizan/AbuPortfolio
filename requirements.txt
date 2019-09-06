@@ -1,3 +1,4 @@
+autopep8==1.4.4
 certifi==2019.6.16
 chardet==3.0.4
 Click==7.0
@@ -10,9 +11,9 @@ Jinja2==2.10.1
 MarkupSafe==1.1.1
 mccabe==0.6.1
 oauthlib==3.1.0
+pkg-resources==0.0.0
 pycodestyle==2.5.0
 pyflakes==2.1.1
-python-linkedin-v2==0.9.4
 requests==2.22.0
 requests-oauthlib==1.2.0
 urllib3==1.25.3

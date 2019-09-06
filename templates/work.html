@@ -1,0 +1,75 @@
+<div class="card mb-2">
+    <h3 class="card-header"><i class="fas fa-briefcase mr-1"></i> Work Experience</h3>
+    <div class="card-body">
+        <h4>Queen's University</h4>
+        <div class="ml-3">
+            <hr>
+
+            <h5 align="left">Information Security Associate</h5>
+            <p>
+                {{data['Work'].get("Queen's University",{}).get("Information Security Associate",{}).get("Period")}}</p>
+            <p>
+                {% for resp in data['Work'].get("Queen's University",{}).get("Information Security Associate",{}).get("Responsibilities") %}
+                <ul>
+                    <li>{{resp}}</li>
+                </ul>
+                {% endfor %}
+
+            </p>
+            <hr>
+
+            <h5 align="left">Library Assistant</h5>
+            <p>
+                {{data['Work'].get("Queen's University",{}).get("Library Assistant",{}).get("Period")}}</p>
+            <p>
+                {% for resp in data['Work'].get("Queen's University",{}).get("Library Assistant",{}).get("Responsibilities") %}
+                <ul>
+                    <li>{{resp}}</li>
+                </ul>
+                {% endfor %}
+
+            </p>
+        </div>
+        <hr>
+        <h4>Queen's Hyperloop Design Team</h4>
+        <div class="ml-3">
+            <hr>
+
+            <h5 align="left">Prototype Team member</h5>
+            <p>
+                {{data['Work'].get("Queen's Hyperloop Design Team",{}).get("Prototype team member",{}).get("Period")}}
+            </p>
+            <p>
+                {% for resp in data['Work'].get("Queen's Hyperloop Design Team",{}).get("Prototype team member",{}).get("Responsibilities") %}
+                <ul>
+                    <li>{{resp}}</li>
+                </ul>
+                {% endfor %}
+
+            </p>
+            <hr>
+        </div>
+
+        <h4>Serendib Toastmasters Gavel Club</h4>
+        <div class="ml-3">
+            <hr>
+
+            <h5 align="left">President</h5>
+            <p>
+                {{data['Work'].get("Serendib Toastmasters Gavel Club",{}).get("President",{}).get("Period")}}
+            </p>
+
+            <hr>
+            <h5 align="left">Vice President Education</h5>
+            <p>
+                {{data['Work'].get("Serendib Toastmasters Gavel Club",{}).get("Vice President Education",{}).get("Period")}}
+            </p>
+            <hr>
+            <h5 align="left">Secretary</h5>
+            <p>
+                {{data['Work'].get("Serendib Toastmasters Gavel Club",{}).get("Secretary",{}).get("Period")}}
+            </p>
+
+        </div>
+    </div>
+</div>
