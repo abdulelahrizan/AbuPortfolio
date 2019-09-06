@@ -85,7 +85,23 @@ data = {'description':
         },
         }
 
-Design = [{'Project Name': 'MECH 323 - Gearbox Design',
+Design = [{'Project Name': "Queen's ITS - Deny by Default Automation",
+           'description': "Developed a web service to automate Security Admin tasks like ticket creation, web application scanning, and firewall rule creation",
+           'tasks': ['Python experience',
+                     'Web Application development with Flask framework',
+                     'Bootstrap4 HTML/CSS Experience',
+                     'Tenable Nessus API',
+                     'Fortigate ForiOS API',
+                     'Azure Cloud Architecture']
+           },
+          {'Project Name': "Queen's ITS - Data Classification Standard",
+           'description': 'Planned and Developed Data Classification Standard in collaboration with Information Security Office and the University Secretariat and Legal Counsel. The Standard was updated to satisfy security standards and advocate safe web practices accross the university.',
+           'tasks': ['Researched NIST Security Standards and Data Classification Scheme of Univeristies worldwide',
+                     'Drupal Web-Devolopment Experience',
+                     'MongoDB NoSQL Experience',
+                     'Developed Standard Operating Procedure']
+           },
+          {'Project Name': 'MECH 323 - Gearbox Design',
            'description': 'Construction of a gearbox designed for specific performace outcomes.',
            'tasks': ['Group-work scenario',
                      'Competitively oriented designing',
@@ -99,19 +115,4 @@ Design = [{'Project Name': 'MECH 323 - Gearbox Design',
                      'Arduino programming',
                      'IOT experience',
                      'JavaScript: Node.js and Johnny-5 libraries experience']},
-          {'Project Name': "Queen's ITS - Data Classification Standard",
-           'description': 'Planned and Developed Data Classification Standard in collaboration with Information Security Office and the University Secretariat and Legal Counsel. The Standard was updated to satisfy security standards and advocate safe web practices accross the university.',
-           'tasks': ['Researched NIST Security Standards and Data Classification Scheme of Univeristies worldwide',
-                     'Drupal Web-Devolopment Experience',
-                     'MongoDB NoSQL Experience',
-                     'Developed Standard Operating Procedure']
-           },
-          {'Project Name': "Queen's ITS - Deny by Default Automation",
-           'description': "Developed a web service to automate Security Admin tasks like ticket creation, web application scanning, and firewall rule creation",
-           'tasks': ['Python experience',
-                     'Web Application development with Flask framework',
-                     'Bootstrap4 HTML/CSS Experience',
-                     'Tenable Nessus API',
-                     'Fortigate ForiOS API',
-                     'Azure Cloud Architecture']
-           }, ]
+          ]
