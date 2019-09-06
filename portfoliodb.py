@@ -10,7 +10,7 @@ data = {'description':
             'Node.js': '60',
             'Arduino': '80',
             'RaspberryPi': '90',
-            'Front-end Web Development': '55',
+            'Front-end Web Development': '60',
             'Back-end Web Development': '70',
             'Drupal': '50',
             'API Development': '70',
