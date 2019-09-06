@@ -22,7 +22,7 @@
 </head>
 
 <body>
-  <div class="navbar-dark text-white">
+  <div class="navbar-dark text-white mb-2">
     <div class="container">
       <nav class="navbar px-0 navbar-expand-lg navbar-dark">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
@@ -43,9 +43,9 @@
     </div>
   </div>
   {% block content %}
-  <div class="contatiner-fluid mx-5">
+  <div class="container mx-auto">
     <div class="row">
-      <div class="col-xl-9 order-xl-2 col-sm order-sm-1">
+      <div class="col-xl-9 order-xl-2 col-lg-9 order-lg-2 col-md-9 order-md-2 col-sm order-sm-1">
         <h1 class="display-2">Abdul Elah A.M. Riza<span class="vim-caret">n</span></h1>
         <div class="lead mb-3 text-mono text-success">There's not much to see here rn tbh.</div>
         <h3> Hi there,
@@ -71,7 +71,7 @@
           </div>
         </div>
       </div>
-      <div class="col-xl-3 order-xl-1 col-sm order-sm-2 mb-2">
+      <div class="col-xl-3 order-xl-1 col-lg-3 order-lg-1 col-md-3 order-md-1 col-sm order-sm-2 mb-2">
         <div class="card">
           <img class="card-img-top" src="{{ url_for('static', filename='images/Profile.jpg') }}" alt="Card image cap">
           <div class="card-body">
@@ -97,6 +97,7 @@
             <p><a href="https://goo.gl/maps/6EbpQv2DoPL2YFrJ8"><i class="fas fa-map-marker mr-1"></i> Kingston, Ontario
                 Canada</a></p>
             <p><a href="tel:1-343-363-7767"><i class="fas fa-phone mr-1"></i> +1(343)-363-7767</a></p>
+            <p><a href="https://github.com/abdulelahrizan"><i class="fab fa-github mr-1"></i> abdulelahrizan</a></p>
             <a href="https://www.youracclaim.com/badges/c9404ba3-3bb1-4273-905f-f486834e3997/public_url ">
               <img class="rounded img-thumbnail mb-2 mx-auto d-block" height="100px" width="100px"
                 src="{{ url_for('static', filename='images/security.png')}}"></a>
@@ -146,8 +147,8 @@
           <a href="https://www.instagram.com/abdulelahrizan/" class="ins-ic">
             <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-2 fa-2x"> </i>
           </a>
-          <a href=tel:1-343-363-7767" class="tel-ic">
-            <i class="fas fa-phone fa-lg white-text mr-md-5 mr-2 fa-2x"></i>
+          <a href="tel:1-343-363-7767" class="tel-ic">
+            <i class="fas fa-phone fa-lg white-text mr-md-5 mr-2 fa-2x"> </i>
           </a>
         </div>
       </div>
