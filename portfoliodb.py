@@ -4,6 +4,7 @@ data = {'description':
         'Development & Technical Skills': {
             'Matlab': '70',
             'Solid Work/Edge': '70',
+            'Siemens NX': '75',
             'Python': '85',
             'Flask': '75',
             'JavaScript': '65',
