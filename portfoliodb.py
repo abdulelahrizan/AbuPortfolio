@@ -44,7 +44,7 @@ data = {'description':
         'Work': {
             "Queen's University": {
                 "Information Security Associate": {
-                    'Period': "May 2019 - Present",
+                    'Period': "May 2018 - Present",
                     'Responsibilities':
                         ["Monitored the University’s networks for security breaches and helped investigate a violation when one occurred",
                          "Conducted web application scans, penetration tests and network security audits using Tenable Nessus and Fortify WebInspect; and issued tickets for remediation",
