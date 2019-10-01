@@ -2,9 +2,9 @@
 data = {'description':
         "Creatively Resourceful Mechanical Engineering student and Cybersecurity professional with a strong passion for technology, network security, and prototype development. I love breaking and building IT!",
         'Development & Technical Skills': {
+            'Microsoft Azure Cloud Architecture': '70',
+            'Docker':'50',
             'Matlab': '70',
-            'Solid Work/Edge': '70',
-            'Siemens NX': '75',
             'Python': '85',
             'Flask': '75',
             'JavaScript': '65',
@@ -17,10 +17,12 @@ data = {'description':
             'API Development': '70',
             'Linux': '90',
             'SQL': '60',
-            'MongoDB(NoSQL)': '70',
-            'Microsoft Azure Cloud Architecture': '60',
+            'MongoDB(NoSQL)': '65',
             'Tenable Nessus': '95',
-            'AlienVault': '85'
+            'AT&T AlienVault': '85',
+            'Solid Work/Edge': '70',
+            'Siemens NX': '75',
+            'ANSYS':'40'
         },
         'Industry Knowledge': {
             'Information Technology': '85',
@@ -50,7 +52,7 @@ data = {'description':
                         ["Monitored the University’s networks for security breaches and helped investigate a violation when one occurred",
                          "Conducted web application scans, penetration tests and network security audits using Tenable Nessus and Fortify WebInspect; and issued tickets for remediation",
                          "Developed solutions to automate security operations",
-                         "Planned Data Classification Standard with counsel of the Information Security Office and the University Secretariat and Legal Counse to satisfy security standards and advocate safe web practices across the university",
+                         "Planned Data Classification Standard with counsel of the Information Security Office and the University Secretariat and Legal Counsel to satisfy security standards and advocate safe web practices across the university",
                          "Developed a web application and wrote up a Standard Operating Procedure(SOP) for the Data Classification Standard tool",
                          "Familiar with the NIST Cybersecurity framework and NIST Cloud Computing Security Reference Architecture",
                          "Familiar with the Queen’s Information Security Policies, guidelines, and procedures",
@@ -92,7 +94,7 @@ Design = [{'Project Name': "Queen's ITS - Deny by Default Automation",
                      'Web Application development with Flask framework',
                      'Bootstrap4 HTML/CSS Experience',
                      'Tenable Nessus API',
-                     'Fortigate ForiOS API',
+                     'Fortigate FortiOS API',
                      'Azure Cloud Architecture']
            },
           {'Project Name': "Queen's ITS - Data Classification Standard",
